@@ -12,13 +12,13 @@
 //HINT: You will need to study the classes in the styles.css file to appy styling.
 import React from "react";
 import ReactDOM from "react-dom";
-
 import App from "./components/app";
 
+//create a component to add note
 
 ReactDOM.render(
-    <div>
-        <App />
-    </div>
-    , document.getElementById("root"));
-
+  <div>
+    <App />
+  </div>,
+  document.getElementById("root")
+);
